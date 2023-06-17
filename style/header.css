@@ -1,0 +1,137 @@
+header {
+    /* border: 2px solid red; */
+    background-color: #deecec;
+}
+
+/* `-`-`-`-` NAVBAR `-`-`-`-` */
+nav {
+    border-bottom: 1px solid #84BABE;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.logo {
+    margin: 3.7rem 0 2.3rem;
+}
+
+.menu {
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a {
+    font-family: worksans;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #6A7087;
+    padding: 4rem 0;
+}
+
+.menu a:focus {
+    color: #2C5F63;
+    border-bottom: 1px solid #2C5F63;
+}
+
+.nav-icons {
+    margin: 4.25rem 0 3.6rem;
+    display: flex;
+    gap: 2.8rem;
+}
+
+.basket {
+    position: relative;
+}
+
+.basket>span {
+    background-color: #F04726;
+    border-radius: 50%;
+    padding: .4rem .6rem;
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: -1.2rem;
+    right: -1.2rem;
+}
+
+/* `-`-`-`-` HERO SECTION `-`-`-`-` */
+.hero {
+    padding: 4.5rem 0 6.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.hero > img:first-child{
+    position: absolute;
+    bottom: 8rem;
+    left: 40rem;
+}
+.hero > img:last-child{
+    position: absolute;
+    left: -25rem;
+    bottom: 0;
+}
+
+.hero-title {
+    width: 51%;
+}
+
+.hero-title>h4 {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: var(--second-color);
+    margin-bottom: 1.1rem;
+}
+
+.hero-title>h1 {
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 5rem;
+    color: var(--h-color);
+}
+.hero-title > p{
+    margin: 2.5rem 0;
+}
+
+.hero-title>button {
+    background-color: var(--btn-color);
+    border-radius: 3.8rem;
+    padding: 1.1rem 3rem;
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+}
+
+.hero-img {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-img>img {
+    width: 100%;
+}
+.hero-circle{
+    display: flex;
+    gap: 2.2rem;
+    align-items: center;
+}
+.hero-circle > img:nth-child(2){
+    padding: .7rem;
+    border: 0.8px solid #9FC1C3;
+    border-radius: 50%;
+}

@@ -1,0 +1,65 @@
+/* `-`-`-`-` FONTS `-`-`-`-` */
+@font-face {
+    font-family: outfit;
+    src: url("/fonts/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: worksans;
+    src: url("/fonts/WorkSans-Regular.ttf");
+}
+
+/* `-`-`-`-` COLOUR `-`-`-`-` */
+:root {
+    --h-color: #34394C;
+    --btn-color: #589195;
+    --p-color: #707686;
+    --second-color: #424758;
+    --sale-color: #F04726;
+}
+
+/* `-`-`-`-` BASIC STYLE `-`-`-`-` */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+button{
+    border: none;
+}
+
+.container {
+    max-width: 111.2rem;
+    margin: 0 auto;
+}
+
+.public_h2 {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--h-color);
+}
+
+.public_p {
+    font-family: worksans;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: var(--p-color);
+}
