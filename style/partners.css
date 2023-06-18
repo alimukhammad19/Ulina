@@ -1,0 +1,6 @@
+.partners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.5rem 13.3rem 4.1rem;
+}
