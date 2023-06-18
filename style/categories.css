@@ -1,0 +1,39 @@
+.categories {
+    margin-bottom: 7.5rem;
+}
+
+.categories>p {
+    margin: .2rem 0 4rem;
+}
+
+.categories-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.category {
+    width: 25%;
+    text-align: center;
+}
+
+.category-img>img {
+    width: 100%;
+}
+
+.category>h5 {
+    margin: .8rem 0 1.6rem 0;
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: var(--h-color);
+}
+
+.category>span {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #BFBFBF;
+}

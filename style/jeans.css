@@ -1,0 +1,103 @@
+.jeans-section {
+    background-color: #F6F8FA;
+}
+
+.jeans {
+    padding: 9.5rem 0;
+    display: flex;
+}
+
+.jeans-img,
+.jeans-title {
+    width: 50%;
+}
+
+.jeans-title>h4 {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #589195;
+    margin-bottom: .9rem;
+}
+
+.jeans-title>p {
+    margin-bottom: 1.1rem;
+}
+
+.jeans-price {
+    display: flex;
+    align-items: center;
+}
+
+.jeans-price>span {
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--btn-color);
+}
+
+.jeans-price>del {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 6rem;
+    color: #5B6075;
+    margin-right: 7.2rem;
+    margin-left: 2rem;
+}
+
+.jeans-price>button {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+    padding: 1.1rem 3.6rem;
+    background: #589195;
+    border-radius: 3.8rem;
+}
+
+.ends {
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: var(--h-color);
+    margin: .6rem 0 2rem;
+}
+
+.rest-time {
+    display: flex;
+    gap: 1rem;
+}
+
+.rest-time-part>span {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 3rem;
+    /* line-height: 6rem; */
+    color: var(--h-color);
+    padding: 2rem 2.7rem 2rem 2.7rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.rest-time-part>p {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 6rem;
+    text-align: center;
+    color: var(--h-color);
+    margin-top: 1rem;
+}
+
+.rest-time>p {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 3.8rem;
+    /* line-height: 6rem; */
+    color: var(--h-color)
+}

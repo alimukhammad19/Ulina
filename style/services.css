@@ -1,0 +1,26 @@
+.services {
+    padding: 6.9rem 0 6.1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.service-img{
+    height: 25%;
+}
+.service-img > img{
+    height: 100%;
+}
+.service>h5 {
+    font-family: worksans;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    color: var(--h-color);
+}
+
+.service>p {
+    font-family: worksans;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: var(--p-color);
+}
