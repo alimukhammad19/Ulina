@@ -69,15 +69,18 @@ nav {
     align-items: center;
     position: relative;
 }
-.hero > img:first-child{
+.hero > img{
     position: absolute;
     bottom: 8rem;
     left: 40rem;
 }
-.hero > img:last-child{
+.hero-section{
+    overflow: hidden;
+}
+.hero-section > img{
     position: absolute;
-    left: -25rem;
-    bottom: 0;
+    left: 0;
+    bottom: -18rem;
 }
 
 .hero-title {
@@ -130,7 +133,7 @@ nav {
     gap: 2.2rem;
     align-items: center;
 }
-.hero-circle > img:nth-child(2){
+.hero-circle > a:nth-child(2) > img{
     padding: .7rem;
     border: 0.8px solid #9FC1C3;
     border-radius: 50%;

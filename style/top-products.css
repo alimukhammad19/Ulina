@@ -1,0 +1,136 @@
+.top-products-sec{
+    position: relative;
+    overflow: hidden;
+}
+.top-products {
+    /* border: 1px solid red; */
+}
+.top-products > img{
+    position: absolute;
+    bottom: 2rem;
+    left: -15rem;
+}
+
+.top-products>p {
+    margin: .5rem 0 2rem;
+}
+
+.ladies-product-img {
+    padding: 4.1rem 5.8rem 7rem 5.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #F7F8FC;
+    border-radius: 4px;
+}
+
+.ladies-product-img>span {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 0 .7rem;
+}
+
+.ladies-product-img>span:first-child {
+    position: absolute;
+    top: 1.3rem;
+    left: 1.5rem;
+    background: #31797E;
+}
+
+.ladies-product-img>span:nth-child(2) {
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    background: #F04726;
+}
+
+.ladies-view {
+    padding: 1.1rem 0 .1rem;
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+}
+
+.ladies-view>span {
+    font-family: worksans;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #7F8698;
+}
+
+.ladies-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ladies-product {
+    width: 24%;
+}
+
+.ladies-product>h3 {
+    font-family: worksans;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    color: var(--h-color);
+}
+
+.ladies-shirt-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ladies-product:nth-child(3)>.ladies-shirt-price {
+    justify-content: flex-start;
+    gap: 1.8rem;
+}
+
+.ladies-shirt-price>del {
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #969DAD;
+}
+
+.ladies-shirt-price>span {
+    font-family: worksans;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 6rem;
+    color: #297176;
+}
+
+.ladies-shirt-size {
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #A2A5AD;
+}
+
+.ladies-shirt-size>span {
+    border: 0.8px solid #A5A9B3;
+    border-radius: .2rem;
+    padding: .6rem;
+}
+.ladies-product-img > p{
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    background: #31797E;
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 0 .7rem;
+}
